@@ -2,6 +2,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { ModuleFederationPlugin } = require('webpack').container;
 const path = require('path');
 
+console.log('webpack-->', require('webpack').version);
+
 module.exports = {
   entry: './src/index',
   mode: 'development',

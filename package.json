@@ -2,7 +2,10 @@
   "name": "module-federation",
   "private": true,
   "workspaces": {
-    "packages": ["app1", "app2"]
+    "packages": [
+      "app1",
+      "app2"
+    ]
   },
   "scripts": {
     "start": "lerna run --parallel start",
