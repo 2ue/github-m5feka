@@ -1,6 +1,6 @@
 .DS_Store
 .vscode
-*/node_modules/*/*
+node_modules
 /env/env.json
 /env/env.js
 /env/qcloud.js
@@ -11,7 +11,8 @@ yarn*
 /publish/static/
 /publish/
 /public/
-/andon-modules/
-# feflow的debug日志
+
 debug.log
 node_modules
+
+dist
